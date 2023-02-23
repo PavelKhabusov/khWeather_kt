@@ -8,14 +8,14 @@
 </a> -->
 
 # Screenshots
-<img src="https://github.com/gurleensethi/kotlin-weather/blob/master/screenshots/screenshot_1.jpg" width="350"/> <img src="https://github.com/gurleensethi/kotlin-weather/blob/master/screenshots/screenshot_2.jpg" width="350"/> 
+<img src="https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_1.jpg" width="350"/> <img src="https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_2.jpg" width="350"/> 
 
 # Overview
  Weather app created using the [OpenWeatherMap Api](https://openweathermap.org/).
  This is not supposed to be a production scale application, it is meant to demonstrate the implementation of **MVP** architecture in Kotlin using following libraries:
 * Retrofit
 
-##### Still if you have any issues or suggestions, please feel free to open an [issue](https://github.com/gurleensethi/kotlin-weather/issues/new)
+##### Still if you have any issues or suggestions, please feel free to open an [issue](https://github.com/PavelKhabusov/KhWeather_kt/issues/new)
 
 ### General flow of data
 * Check if there is cached data present in the internal file, if yes then load the cached data.
