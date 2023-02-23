@@ -1,4 +1,4 @@
-package com.example.lab_1.ui.search
+package com.example.khWeather_kt.ui.search
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.lab_1.R
-import com.example.lab_1.loadImage
-import com.example.lab_1.roundToStr
-import com.example.lab_1.ui.home.WeatherCity
+import com.example.khWeather_kt.R
+import com.example.khWeather_kt.loadImage
+import com.example.khWeather_kt.roundToStr
+import com.example.khWeather_kt.ui.home.WeatherCity
 import org.json.JSONException
 import java.util.*
 

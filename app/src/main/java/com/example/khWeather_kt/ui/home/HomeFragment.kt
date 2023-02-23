@@ -1,4 +1,4 @@
-package com.example.lab_1.ui.home
+package com.example.khWeather_kt.ui.home
 
 import android.annotation.SuppressLint
 import android.icu.text.SimpleDateFormat
@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.lab_1.*
-import com.example.lab_1.MainActivity.Companion.userLat
-import com.example.lab_1.MainActivity.Companion.userLon
-import com.example.lab_1.databinding.FragmentHomeBinding
+import com.example.khWeather_kt.*
+import com.example.khWeather_kt.MainActivity.Companion.userLat
+import com.example.khWeather_kt.MainActivity.Companion.userLon
+import com.example.khWeather_kt.databinding.FragmentHomeBinding
 import kotlinx.coroutines.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,9 +1,9 @@
-package com.example.lab_1.ui.forecast
+package com.example.khWeather_kt.ui.forecast
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.lab_1.ui.home.WeatherCity
+import com.example.khWeather_kt.ui.home.WeatherCity
 import com.google.gson.Gson
 
 class ForecastAdapter(fragment: ForecastFragment, val list: List<WeatherCity>) : FragmentStateAdapter(fragment) {

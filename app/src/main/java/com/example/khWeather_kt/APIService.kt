@@ -1,8 +1,8 @@
-package com.example.lab_1
+package com.example.khWeather_kt
 
-import com.example.lab_1.ui.home.WeatherCity
-import com.example.lab_1.ui.forecast.WeatherForecast
-import com.example.lab_1.ui.search.WeatherList
+import com.example.khWeather_kt.ui.home.WeatherCity
+import com.example.khWeather_kt.ui.forecast.WeatherForecast
+import com.example.khWeather_kt.ui.search.WeatherList
 import retrofit2.http.*
 
 

@@ -1,4 +1,4 @@
-package com.example.lab_1
+package com.example.khWeather_kt
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.example.lab_1.databinding.ActivityMainBinding
+import com.example.khWeather_kt.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     companion object {

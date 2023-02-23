@@ -1,6 +1,6 @@
-package com.example.lab_1.ui.forecast
+package com.example.khWeather_kt.ui.forecast
 
-import com.example.lab_1.ui.home.WeatherCity
+import com.example.khWeather_kt.ui.home.WeatherCity
 
 data class WeatherForecast (
     val cod: String,

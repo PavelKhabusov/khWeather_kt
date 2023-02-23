@@ -1,4 +1,4 @@
-# KhWeather_kt
+# khWeather_kt
  Kotlin Weather app for Android, demonstrating the use of Retrofit and implementing MVP.
 
 <!-- <a href="https://play.google.com/store/apps/details?id=app.com.thetechnocafe.kotlinweather">
@@ -9,8 +9,8 @@
 
 # Screenshots
 <p align="center" float="left">
-  <img src="https://github.com/PavelKhabusov/KhWeather_kt/blob/main/screenshots/screenshot_1.png" width="350" alt="scr_1"/> 
-  <img src="https://github.com/PavelKhabusov/KhWeather_kt/blob/main/screenshots/screenshot_2.png" width="350" alt="scr_2"/> 
+  <img src="https://github.com/PavelKhabusov/khWeather_kt/blob/main/screenshots/screenshot_1.png" width="350" alt="scr_1"/> 
+  <img src="https://github.com/PavelKhabusov/khWeather_kt/blob/main/screenshots/screenshot_2.png" width="350" alt="scr_2"/> 
 </p>
 
 # Overview
@@ -18,7 +18,7 @@
  This is not supposed to be a production scale application, it is meant to demonstrate the implementation of **MVP** architecture in Kotlin using following libraries:
 * Retrofit
 
-##### Still if you have any issues or suggestions, please feel free to open an [issue](https://github.com/PavelKhabusov/KhWeather_kt/issues/new)
+##### Still if you have any issues or suggestions, please feel free to open an [issue](https://github.com/PavelKhabusov/khWeather_kt/issues/new)
 
 ### General flow of data
 * Check if there is cached data present in the internal file, if yes then load the cached data.

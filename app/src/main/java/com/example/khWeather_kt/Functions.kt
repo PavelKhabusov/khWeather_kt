@@ -1,4 +1,4 @@
-package com.example.lab_1
+package com.example.khWeather_kt
 
 import android.icu.text.SimpleDateFormat
 import android.view.View

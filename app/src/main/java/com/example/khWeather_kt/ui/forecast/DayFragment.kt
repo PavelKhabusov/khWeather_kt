@@ -1,4 +1,4 @@
-package com.example.lab_1.ui.forecast
+package com.example.khWeather_kt.ui.forecast
 
 import android.graphics.Color
 import android.icu.text.SimpleDateFormat
@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.lab_1.R
-import com.example.lab_1.appendAnyDbl
-import com.example.lab_1.appendStrHH
-import com.example.lab_1.ui.home.WeatherCity
+import com.example.khWeather_kt.R
+import com.example.khWeather_kt.appendAnyDbl
+import com.example.khWeather_kt.appendStrHH
+import com.example.khWeather_kt.ui.home.WeatherCity
 import com.github.aachartmodel.aainfographics.aachartcreator.AAChartModel
 import com.github.aachartmodel.aainfographics.aachartcreator.AAChartSymbolType
 import com.github.aachartmodel.aainfographics.aachartcreator.AAChartType

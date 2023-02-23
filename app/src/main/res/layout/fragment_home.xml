@@ -86,7 +86,7 @@
                         android:textSize="10sp"
                         tools:ignore="SmallSp" />
 
-                    <com.example.lab_1.BorderTextView
+                    <com.example.khWeather_kt.BorderTextView
                         android:id="@+id/address"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.example.lab_1.BorderTextView
+                <com.example.khWeather_kt.BorderTextView
                     android:id="@+id/temp"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
                     app:strokeJoinStyle="miter"
                     app:strokeWidth="1dp"/>
 
-                <com.example.lab_1.BorderTextView
+                <com.example.khWeather_kt.BorderTextView
                     android:id="@+id/status"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

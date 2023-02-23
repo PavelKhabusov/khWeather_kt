@@ -1,4 +1,4 @@
-package com.example.lab_1.ui.home
+package com.example.khWeather_kt.ui.home
 
 data class WeatherCity (
     val coord: Coord,

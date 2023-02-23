@@ -1,4 +1,4 @@
-package com.example.lab_1.ui.search
+package com.example.khWeather_kt.ui.search
 
 import android.content.Context
 import android.os.Bundle
@@ -9,12 +9,12 @@ import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.lab_1.APIService
-import com.example.lab_1.BuildConfig
-import com.example.lab_1.MainActivity.Companion.userLat
-import com.example.lab_1.MainActivity.Companion.userLon
-import com.example.lab_1.R
-import com.example.lab_1.databinding.FragmentSearchBinding
+import com.example.khWeather_kt.APIService
+import com.example.khWeather_kt.BuildConfig
+import com.example.khWeather_kt.MainActivity.Companion.userLat
+import com.example.khWeather_kt.MainActivity.Companion.userLon
+import com.example.khWeather_kt.R
+import com.example.khWeather_kt.databinding.FragmentSearchBinding
 import kotlinx.coroutines.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,6 +1,5 @@
-package com.example.lab_1.ui.forecast
+package com.example.khWeather_kt.ui.forecast
 
-import android.R
 import android.annotation.SuppressLint
 import android.icu.text.SimpleDateFormat
 import android.os.Bundle
@@ -9,12 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
-import com.example.lab_1.*
-import com.example.lab_1.MainActivity.Companion.userLat
-import com.example.lab_1.MainActivity.Companion.userLon
-import com.example.lab_1.databinding.FragmentForecastBinding
-import com.google.android.material.tabs.TabLayout
-import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
+import com.example.khWeather_kt.*
+import com.example.khWeather_kt.MainActivity.Companion.userLat
+import com.example.khWeather_kt.MainActivity.Companion.userLon
+import com.example.khWeather_kt.databinding.FragmentForecastBinding
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.coroutines.*
 import retrofit2.Retrofit
