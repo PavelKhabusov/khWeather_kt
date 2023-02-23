@@ -8,7 +8,9 @@
 </a> -->
 
 # Screenshots
-<img src="https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_1.png" width="350"/> <img src="https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_2.png" width="350"/> 
+![alt text](https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_1.png?raw=true)
+![alt text](https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_2.png?raw=true)
+<!-- <img src="https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_1.png" width="350"/> <img src="https://github.com/PavelKhabusov/KhWeather_kt/tree/main/screenshots/screenshot_2.png" width="350"/>  -->
 
 # Overview
  Weather app created using the [OpenWeatherMap Api](https://openweathermap.org/).
