@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    tools:context=".ui.forecast.ForecastFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:scrollY="-120dp"
+        android:src="@drawable/bg" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.lab_1.BorderTextView
+            android:id="@+id/title_forecast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-6sp"
+            android:layout_marginBottom="10sp"
+            android:paddingHorizontal="50dp"
+            android:shadowColor="#202717"
+            android:shadowRadius="2"
+            android:text="@string/title_forecast"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccentHalf"
+            android:textSize="30sp"
+            app:outerShadowRadius="10dp"
+            app:strokeColor="#202717"
+            app:strokeJoinStyle="miter"
+            app:strokeWidth=".5dp" />
+
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/shape"
+        android:visibility="visible">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:contentDescription="@string/app_name"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/tab_view_bg"
+            android:layout_gravity="center"
+            app:tabPaddingStart="8dp"
+            app:tabPaddingEnd="8dp"
+            app:tabIndicatorColor="@android:color/transparent"
+            app:tabGravity="center"
+            app:tabSelectedTextColor="@color/colorPrimaryDark"
+            app:tabIndicatorHeight="0dp"
+            app:tabRippleColor="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tabMode="scrollable"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
+            app:tabBackground="@drawable/tab_selector"
+            app:elevation="0dp"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tab_layout"
+            app:layout_constraintVertical_bias="1.0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="clip_vertical|center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="102dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/errorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/error_text"
+            android:visibility="gone" />
+    </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

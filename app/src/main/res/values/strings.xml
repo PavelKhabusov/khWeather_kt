@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="title_home">Главная</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_forecast">Прогноз</string>
+    <string name="search">Поиск</string>
+    <string name="city">Хабаровск</string>
+    <string name="updated_at">Обновлено: 08/02/2023 16:00</string>
+    <string name="status">Облачно с прояснениями</string>
+    <string name="temp">29°C</string>
+    <string name="temp_min">Мин: -17.11°</string>
+    <string name="temp_max">Макс: -17.11°</string>
+    <string name="feels_like">Ощущается как: -17.11°</string>
+    <string name="sunrise">Восход</string>
+    <string name="sunset">Закат</string>
+    <string name="time">16:40</string>
+    <string name="wind">Скорость ветра</string>
+    <string name="pressure">Давление</string>
+    <string name="humidity">Влажность</string>
+    <string name="error_text">Что-то пошло не так</string>
+    <string name="search_hint">Искать город</string>
+</resources>
