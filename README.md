@@ -8,7 +8,7 @@
 </a> -->
 
 # Screenshots
-<p align="center">
+<p align="center" float="left">
   <img src="https://github.com/PavelKhabusov/KhWeather_kt/blob/main/screenshots/screenshot_1.png" width="350" alt="scr_1"/> 
   <img src="https://github.com/PavelKhabusov/KhWeather_kt/blob/main/screenshots/screenshot_2.png" width="350" alt="scr_2"/> 
 </p>
