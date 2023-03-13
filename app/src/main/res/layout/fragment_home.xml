@@ -239,7 +239,7 @@
                         android:layout_height="35dp"
                         android:contentDescription="@string/sunrise"
                         android:src="@drawable/sunrise"
-                        app:tint="#FBC16C" />
+                        app:tint="@color/colorAccentHalf" />
 
                     <Space
                         android:layout_width="wrap_content"
@@ -279,7 +279,7 @@
                         android:layout_height="35dp"
                         android:contentDescription="@string/sunset"
                         android:src="@drawable/sunset"
-                        app:tint="#FBC16C" />
+                        app:tint="@color/colorAccentHalf" />
 
                     <Space
                         android:layout_width="wrap_content"
@@ -319,7 +319,7 @@
                         android:layout_height="35dp"
                         android:contentDescription="@string/wind"
                         android:src="@drawable/wind"
-                        app:tint="#FBC16C" />
+                        app:tint="@color/colorAccentHalf" />
 
                     <Space
                         android:layout_width="wrap_content"
@@ -366,7 +366,7 @@
                         android:layout_height="35dp"
                         android:contentDescription="@string/pressure"
                         android:src="@drawable/pressure"
-                        app:tint="#FBC16C" />
+                        app:tint="@color/colorAccentHalf" />
 
                     <Space
                         android:layout_width="wrap_content"
@@ -406,7 +406,7 @@
                         android:layout_height="35dp"
                         android:contentDescription="@string/humidity"
                         android:src="@drawable/humidity"
-                        app:tint="#FBC16C" />
+                        app:tint="@color/colorAccentHalf" />
 
                     <Space
                         android:layout_width="wrap_content"

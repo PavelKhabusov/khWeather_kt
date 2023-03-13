@@ -67,10 +67,6 @@ class HomeFragment : Fragment() {
         private fun onPostExecute(res : WeatherCity) {
             try {
                 /* Extracting JSON returns from the API */
-//                loadImage(binding.weatherIcon, "http://openweathermap.org/img/wn/${res.weather[0].icon.replace('n', 'd')}@2x.png")
-//                val drawableName = "ic_${res.weather[0].icon.replace('n', 'd')}"
-//                loadImage(binding.weatherIcon, R.drawable.drawableName)
-//                binding.weatherIcon.setImageResource(resources.getIdentifier(drawableName, "drawable", getPackageName()))
                 val mDrawableName = "ic_${res.weather[0].icon.replace('n', 'd')}"
                 val resID = resources.getIdentifier(mDrawableName, "drawable", context?.packageName)
                 binding.weatherIcon.setImageResource(resID)

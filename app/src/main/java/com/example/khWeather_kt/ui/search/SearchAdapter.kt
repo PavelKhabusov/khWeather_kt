@@ -28,8 +28,6 @@ class SearchAdapter(
         @SuppressLint("ViewHolder") val itemView = inflater.inflate(listLayout, parent, false)
         val address = itemView.findViewById<TextView>(R.id.date)
         val temp = itemView.findViewById<TextView>(R.id.temp)
-//        val tempMin = itemView.findViewById<TextView>(R.id.temp_min)
-//        val tempMax = itemView.findViewById<TextView>(R.id.temp_max)
         val weatherIcon = itemView.findViewById<ImageView>(R.id.weather_icon)
         val flagIcon = itemView.findViewById<ImageView>(R.id.flag_icon)
         try {
@@ -37,12 +35,7 @@ class SearchAdapter(
 
             address.text = list[position].name + ", " + res.sys.country
             temp.text = roundToStr(res.main.temp) + "°C"
-//            tempMin.text = "Мин: " + roundToStr(res.main.temp_min) + "°"
-//            tempMax.text = "Макс: " + roundToStr(res.main.temp_max) + "°"
 
-//            val icon = res.weather[0].icon.replace('n', 'd')
-//            val iconUrl = "http://openweathermap.org/img/wn/$icon@2x.png"
-//            loadImage(weatherIcon, iconUrl)
             val mDrawableName = "ic_${res.weather[0].icon.replace('n', 'd')}"
             val resID = context.resources.getIdentifier(mDrawableName, "drawable", context.packageName)
             weatherIcon.setImageResource(resID)
